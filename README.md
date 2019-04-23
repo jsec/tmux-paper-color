@@ -10,7 +10,13 @@ Currently this is only tested on systems with 24-bit color support. Making the t
 
 ## Installation
 
-Add to your `tmux.conf` file:
+Install with TPM:
+
+```bash
+set -g @plugin 'jsec/tmux-paper-color'
+```
+
+or add to your `tmux.conf` file:
 
 ```bash
 source-file "/path/to/repository/tmux-paper-color.conf"
@@ -20,7 +26,6 @@ source-file "/path/to/repository/tmux-paper-color.conf"
 
 - Clean up theme
 - Add support for 256 color palettes.
-- Add TPM support
 
 ## License
 
